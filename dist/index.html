@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo Demo</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Todo</h1>
+      <div class="application-container">
+        <div class="projects-container">
+          <h2>Projects</h2>
+          <div class="container">
+            <ul class="projects"></ul>
+            <form action="#" id="projects-form">
+              <label for="new-project">Add new Project</label>
+              <input required type="text" id="new-project" name="newProject" />
+              <button type="submit">add</button>
+            </form>
+          </div>
+        </div>
+        <div class="tasks-container">
+          <h2>Tasks</h2>
+          <form action="#" id="tasks-form">
+            <h3>Add Task</h3>
+
+            <div>
+              <label for="title">Title</label>
+              <input required type="text" name="title" id="title" />
+            </div>
+            <div>
+              <label for="description">Description</label>
+              <input required type="text" name="description" id="description" />
+            </div>
+            <div>
+              <label for="dueDate">Due Date</label>
+              <input required type="text" name="dueDate" id="dueDate" />
+            </div>
+            <div>
+              <label for="priority">Priority</label>
+              <input required type="text" name="priority" id="priority" />
+            </div>
+            <button type="submit">Add</button>
+          </form>
+          <ul class="tasks">
+            <!-- <div class="task">
+              <div class="title">Buy Water</div>
+              <div class="description">buy dorna water type</div>
+              <div class="dueDate">21 July</div>
+              <div class="priority">Urgent</div>
+            </div>
+            <div class="task">
+              <div class="title">Buy Water</div>
+              <div class="description">buy dorna water type</div>
+              <div class="dueDate">21 July</div>
+              <div class="priority">Urgent</div>
+            </div>
+            <div class="task">
+              <div class="title">Buy Water</div>
+              <div class="description">buy dorna water type</div>
+              <div class="dueDate">21 July</div>
+              <div class="priority">Urgent</div>
+            </div>
+            <div class="task">
+              <div class="title">Buy Water</div>
+              <div class="description">buy dorna water type</div>
+              <div class="dueDate">21 July</div>
+              <div class="priority">Urgent</div>
+            </div> -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  <script defer src="main.js"></script></body>
+</html>

@@ -1,0 +1,20 @@
+Ok deci hai sa vedem cum o sa structuram toata aplicatia ca daca n am
+in cap nimic inseamna ca o sa mi ia foarte mult si o sa trag degeaba.
+
+Project
+- o sa avem o clasa Project
+- fiecare project o sa aibe un nume
+- fiecare project o sa aibe un array de task-uri
+- trebuie sa adaug o metoda prin care sa elimin un anumit task din tasks, ok
+deci nu este buna ideea de a adauga un index, sau poate mai bine adaug un
+index intern pentru ca asa dupa sa gasecs ce index are in array si dupa sa-l
+sterg... hmmm - done
+
+
+Todo
+- o sa aibe un titlu, un dueDate, o descriere si o prioritate
+
+Local storage mai ramane
+ma gandesc sa salvez projects mereu in local storage cand fac ceva, cand creez un proiect nou sau cand 
+fac un task nou sau cand dau delete
+si la inceput sa dau fetch la projects
